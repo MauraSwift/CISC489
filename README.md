@@ -25,10 +25,10 @@ Plot of root mean squared error (RMSE) versus training time for the magnitude of
 Plot of RMSE versus training time for the x-coordinate of the control action
 ![predicting ux](https://user-images.githubusercontent.com/32310752/40210102-181931c0-5a11-11e8-8d84-c6212761997a.PNG)
 
-Plot of RMSE versus training time for the x-coordinate of the control action
+Plot of RMSE versus training time for the y-coordinate of the control action
 ![predicting uy](https://user-images.githubusercontent.com/32310752/40210103-182dc6f8-5a11-11e8-8985-ad45f5139095.PNG)
 
-Plot of RMSE versus training time for the x-coordinate of the control action
+Plot of RMSE versus training time for the z-coordinate of the control action
 ![predicting uz](https://user-images.githubusercontent.com/32310752/40210104-1841326a-5a11-11e8-9381-9344623d265f.PNG)
 
 For the magnitude and x- and y-components of the control action, the Adam optimizer clearly produced the best results, and for the z-component the Adam and Gradient Descent optimizers performed equally well.
