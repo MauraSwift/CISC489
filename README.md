@@ -1,4 +1,4 @@
-# Navigation of Solar Sail Satellites using neural networks
+# Navigation of Solar Sail Satellites Using Neural Networks
 
 ## Abstract
 The use of neural networks to optimize navigation on solar satellites and other lightweight spacecraft is a concept that shows substantial promise. This merges the lightweight chassis and time invariant solar wind propulsion which allows operation at far distances from Earth with a neural network to allow automated decision-making at distances too extreme to control from Earth. This project was inspired by an object oriented navigation solver known as Astro.IQ. A deep neural network from Google's machine learning crash course was modified to predict control variables based on a spacecraft's mass, position, and velocity. Three different optimizers were tested and it was found that in most cases the Adam Optimizer resulted in the best error reduction. We recommend further research into neural networks for navigation, especially as autonomous satellites become more common in future expeditions.
